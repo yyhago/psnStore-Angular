@@ -1,0 +1,24 @@
+.container-cardlabel{
+  position: absolute;
+  bottom: 90px;
+  right: 0;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+  padding: 0px 50px;
+  border-radius: 7px 0px 0px 7px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bolds;
+  height: 40px;
+  transition: transform .8s;
+}
+
+.content:hover{
+  background-color: #242222;
+  transform: scale(1.1);
+}
